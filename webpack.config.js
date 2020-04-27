@@ -1,13 +1,14 @@
 const path = require("path")
 
 module.exports = {
+  mode: "production",
   entry: {
-    bundle: "./src/web/index.ts"
+    bundle: "./src/index.ts"
   },
   module: {
     rules: [
       {
-        test: /\.tsx?/,
+        test: /\.ts?/,
         use: [
           {
             loader: "ts-loader",

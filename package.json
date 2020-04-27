@@ -1,0 +1,31 @@
+{
+  "name": "loopmetrics-browser",
+  "version": "0.1.0",
+  "description": "The official LOOPmetrics browser SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LOOPmetrics/loopmetrics-browser.git"
+  },
+  "keywords": [
+    "loopmetrics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LOOPmetrics/loopmetrics-browser/issues"
+  },
+  "homepage": "https://github.com/LOOPmetrics/loopmetrics-browser#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ua-parser-js": "^0.7.21",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "@types/ua-parser-js": "^0.7.33",
+    "@types/uuid": "^7.0.3"
+  }
+}

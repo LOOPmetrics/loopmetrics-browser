@@ -10,17 +10,12 @@ export default {
       format: "cjs"
     },
     {
-      file: "dist/bundle.cjs.min.js",
-      format: "cjs",
-      plugins: [terser()]
-    },
-    {
       file: "dist/bundle.es.js",
       format: "es"
     },
     {
-      file: "dist/bundle.es.min.js",
-      format: "es",
+      file: "dist/bundle.min.js",
+      format: "cjs",
       plugins: [terser()]
     }
   ],

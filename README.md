@@ -38,7 +38,7 @@ Below is an explanation for how to use the API exposed by the SDK.
 
 ### loopmetrics.init(config)
 
-loopmetrics.init takes a config object with the following properties.
+Calling lopmetrics.init is required before tracking any events. This method takes a config object with the following properties.
 
 ```ts
 const config = {

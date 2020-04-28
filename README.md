@@ -29,8 +29,7 @@ loopmetrics.init({
 Send an event
 
 ```ts
-loopmetrics.track("eventName", { propertyName: "propertyValue" }
-)
+loopmetrics.track("eventName", { propertyName: "propertyValue" })
 ```
 
 ## API
@@ -61,8 +60,10 @@ const config = {
 
 ### loopmetrics.track(eventName[, properties, callback])
 
-eventName(required): A string that represents the event to track
+-eventName(required): A string that represents the event to track
+
 properties(optional): Up to 50 key value pairs. The values have to be of type string, number or boolean
+
 callback(optional): A callback that will be fired after tracking the event was successfully finished
 
 ### loopmetrics.trackOnInit(eventName[, properties, callback])
@@ -74,7 +75,9 @@ This method accepts the same arguments as loopmetrics.track. The difference is t
 Tracks or updates tenant information.
 
 distinctId(required): A string that represents the unique identifier of the tenant
+
 companyName(required): A string that represents the company's name
+
 properties(optional): Up to 50 key value pairs. The values have to be of type string, number or boolean
 
 ### loopmetrics.updateUser(userConfig)
@@ -82,7 +85,11 @@ properties(optional): Up to 50 key value pairs. The values have to be of type st
 Tracks or updates user information.
 
 distinctId(required): A string that represents the unique identifier of the user
+
 firstName(optional): A string that represents the user's first name
+
 lastName(optional): A string that represents the user's last name
+
 email(optional): A string that represents the user's email address
+
 properties(optional): Up to 50 key value pairs. The values have to be of type string, number or boolean

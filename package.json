@@ -1,8 +1,9 @@
 {
   "name": "loopmetrics-browser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The official LOOPmetrics browser SDK",
   "main": "dist/bundle.cjs.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c"
   },

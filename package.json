@@ -2,7 +2,7 @@
   "name": "loopmetrics-browser",
   "version": "0.1.0",
   "description": "The official LOOPmetrics browser SDK",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
     "build": "rollup -c"
   },

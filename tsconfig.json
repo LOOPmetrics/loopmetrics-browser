@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "module": "commonjs",
+    "module": "ESNext",
     "isolatedModules": false,
+    "declaration": true,
     "allowJs": true,
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": true,
     "skipLibCheck": false,
     "strict": true,
     "esModuleInterop": true,
@@ -19,7 +19,7 @@
     "jsx": "react",
     "typeRoots": ["./node_modules/@types"],
     "lib": ["dom", "es2015", "es2016"],
-    "outDir": "build",
+    "outDir": "dist",
     "baseUrl": "src",
   },
   "include": ["src/*"]

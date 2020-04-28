@@ -343,3 +343,4 @@ class LoopmetricsClient implements ClientApi {
 }
 
 export const loopmetrics = new LoopmetricsClient()
+export default loopmetrics
